@@ -1,0 +1,112 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoModelo.Authentication.Interface", "ProjetoModelo.Authentication.Interface\ProjetoModelo.Authentication.Interface.csproj", "{D3F384D9-D303-4C8A-ABBE-5E3B014DE352}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoModelo.Exemplo.Interface", "ProjetoModelo.Exemplo.Interface\ProjetoModelo.Exemplo.Interface.csproj", "{E7CE75AE-F467-413E-85D0-A44D837EB5E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoModelo.Authentication", "ProjetoModelo.Authentication\ProjetoModelo.Authentication.csproj", "{A5F68468-E72C-48E3-9BBF-C0E501A0F5B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoModelo.Common", "ProjetoModelo.Common\ProjetoModelo.Common.csproj", "{C7E0401A-4DFA-4834-8736-60281A076330}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoModelo.Authentication.Domain", "ProjetoModelo.Authentication.Domain\ProjetoModelo.Authentication.Domain.csproj", "{39D7039B-9035-48CE-AD2C-056446E45732}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoModelo.Authentication.Infrastructure", "ProjetoModelo.Authentication.Infrastructure\ProjetoModelo.Authentication.Infrastructure.csproj", "{2A5962DF-7715-4ED8-9863-DED05950CB10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoModelo.Authentication.Infrastructure.Test", "ProjetoModelo.Authentication.Infrastructure.Test\ProjetoModelo.Authentication.Infrastructure.Test.csproj", "{0EC6F75B-0CF7-4ECA-B44D-9DBACA82D9FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoModelo.Exemplo.Domain", "ProjetoModelo.Domain\ProjetoModelo.Exemplo.Domain.csproj", "{33CED871-6B12-415D-B04A-A39B281BA9F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoModelo.Exemplo.Infrastructure", "ProjetoModelo.Infrastructure\ProjetoModelo.Exemplo.Infrastructure.csproj", "{3C8A1DCE-0DB7-4E6B-8C09-D16186C6FD5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjetoModelo.Exemplo.Infrastructure.Test", "ProjetoModelo.Infrastructure.Test\ProjetoModelo.Exemplo.Infrastructure.Test.csproj", "{3B9716D5-4733-4288-8CA0-398963C7F75E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3F384D9-D303-4C8A-ABBE-5E3B014DE352}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3F384D9-D303-4C8A-ABBE-5E3B014DE352}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3F384D9-D303-4C8A-ABBE-5E3B014DE352}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3F384D9-D303-4C8A-ABBE-5E3B014DE352}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7CE75AE-F467-413E-85D0-A44D837EB5E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7CE75AE-F467-413E-85D0-A44D837EB5E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7CE75AE-F467-413E-85D0-A44D837EB5E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7CE75AE-F467-413E-85D0-A44D837EB5E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5F68468-E72C-48E3-9BBF-C0E501A0F5B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5F68468-E72C-48E3-9BBF-C0E501A0F5B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5F68468-E72C-48E3-9BBF-C0E501A0F5B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5F68468-E72C-48E3-9BBF-C0E501A0F5B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7E0401A-4DFA-4834-8736-60281A076330}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7E0401A-4DFA-4834-8736-60281A076330}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7E0401A-4DFA-4834-8736-60281A076330}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7E0401A-4DFA-4834-8736-60281A076330}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39D7039B-9035-48CE-AD2C-056446E45732}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39D7039B-9035-48CE-AD2C-056446E45732}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39D7039B-9035-48CE-AD2C-056446E45732}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39D7039B-9035-48CE-AD2C-056446E45732}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A5962DF-7715-4ED8-9863-DED05950CB10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A5962DF-7715-4ED8-9863-DED05950CB10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A5962DF-7715-4ED8-9863-DED05950CB10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A5962DF-7715-4ED8-9863-DED05950CB10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EC6F75B-0CF7-4ECA-B44D-9DBACA82D9FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EC6F75B-0CF7-4ECA-B44D-9DBACA82D9FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EC6F75B-0CF7-4ECA-B44D-9DBACA82D9FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EC6F75B-0CF7-4ECA-B44D-9DBACA82D9FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33CED871-6B12-415D-B04A-A39B281BA9F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33CED871-6B12-415D-B04A-A39B281BA9F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33CED871-6B12-415D-B04A-A39B281BA9F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33CED871-6B12-415D-B04A-A39B281BA9F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C8A1DCE-0DB7-4E6B-8C09-D16186C6FD5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C8A1DCE-0DB7-4E6B-8C09-D16186C6FD5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C8A1DCE-0DB7-4E6B-8C09-D16186C6FD5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C8A1DCE-0DB7-4E6B-8C09-D16186C6FD5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B9716D5-4733-4288-8CA0-398963C7F75E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B9716D5-4733-4288-8CA0-398963C7F75E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B9716D5-4733-4288-8CA0-398963C7F75E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B9716D5-4733-4288-8CA0-398963C7F75E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 11
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://csharpbrasil.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ProjetoModelo.Authentication.Domain\\ProjetoModelo.Authentication.Domain.csproj
+		SccProjectName1 = ProjetoModelo.Authentication.Domain
+		SccLocalPath1 = ProjetoModelo.Authentication.Domain
+		SccProjectUniqueName2 = ProjetoModelo.Common\\ProjetoModelo.Common.csproj
+		SccProjectName2 = ProjetoModelo.Common
+		SccLocalPath2 = ProjetoModelo.Common
+		SccProjectUniqueName3 = ProjetoModelo.Authentication.Infrastructure\\ProjetoModelo.Authentication.Infrastructure.csproj
+		SccProjectName3 = ProjetoModelo.Authentication.Infrastructure
+		SccLocalPath3 = ProjetoModelo.Authentication.Infrastructure
+		SccProjectUniqueName4 = ProjetoModelo.Authentication\\ProjetoModelo.Authentication.csproj
+		SccProjectName4 = ProjetoModelo.Authentication
+		SccLocalPath4 = ProjetoModelo.Authentication
+		SccProjectUniqueName5 = ProjetoModelo.Authentication.Interface\\ProjetoModelo.Authentication.Interface.csproj
+		SccProjectName5 = ProjetoModelo.Authentication.Interface
+		SccLocalPath5 = ProjetoModelo.Authentication.Interface
+		SccProjectUniqueName6 = ProjetoModelo.Exemplo.Interface\\ProjetoModelo.Exemplo.Interface.csproj
+		SccProjectName6 = ProjetoModelo.Exemplo.Interface
+		SccLocalPath6 = ProjetoModelo.Exemplo.Interface
+		SccProjectUniqueName7 = ProjetoModelo.Authentication.Infrastructure.Test\\ProjetoModelo.Authentication.Infrastructure.Test.csproj
+		SccProjectName7 = ProjetoModelo.Authentication.Infrastructure.Test
+		SccLocalPath7 = ProjetoModelo.Authentication.Infrastructure.Test
+		SccProjectUniqueName8 = ProjetoModelo.Domain\\ProjetoModelo.Exemplo.Domain.csproj
+		SccProjectName8 = ProjetoModelo.Domain
+		SccLocalPath8 = ProjetoModelo.Domain
+		SccProjectUniqueName9 = ProjetoModelo.Infrastructure\\ProjetoModelo.Exemplo.Infrastructure.csproj
+		SccProjectName9 = ProjetoModelo.Infrastructure
+		SccLocalPath9 = ProjetoModelo.Infrastructure
+		SccProjectUniqueName10 = ProjetoModelo.Infrastructure.Test\\ProjetoModelo.Exemplo.Infrastructure.Test.csproj
+		SccProjectName10 = ProjetoModelo.Infrastructure.Test
+		SccLocalPath10 = ProjetoModelo.Infrastructure.Test
+	EndGlobalSection
+EndGlobal
